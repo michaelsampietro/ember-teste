@@ -1,0 +1,9 @@
+{{outlet}}
+
+<form>
+  <div class="form-group">
+    <label>Digite sua consulta AQL</label>
+    {{textarea class="form-control" value=query}}
+  </div>
+  <button {{action 'post'}} class="btn btn-primary">Consultar</button>
+</form>
